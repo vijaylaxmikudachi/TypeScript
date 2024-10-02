@@ -53,7 +53,18 @@ console.log(individual.firstName);
   console.log(emp.greet());  // Output: Hello, I am vijaylaxmi RK, employee #101
   
   
+//interface vs type
 
+  type People = {
+    firstName: string;
+    lastName: string;
+  };
+  
+  const p2: People = {
+    firstName: "vij",
+    lastName: "Rk",
+  };
+    
 
 
 
