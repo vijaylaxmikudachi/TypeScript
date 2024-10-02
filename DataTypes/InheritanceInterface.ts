@@ -49,8 +49,8 @@ console.log(individual.firstName);
     }
   }
   
-  const emp = new Employee("Alice", "Johnson", 101);
-  console.log(emp.greet());  // Output: Hello, I am Alice Johnson, employee #101
+  const emp = new Employee("vijaylaxmi", "RK", 101);
+  console.log(emp.greet());  // Output: Hello, I am vijaylaxmi RK, employee #101
   
   
 

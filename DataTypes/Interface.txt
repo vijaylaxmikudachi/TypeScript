@@ -1,0 +1,20 @@
+What is an Interface in TypeScript?
+In TypeScript, an interface is a way to define the structure of an object, 
+outlining the properties and methods it must have. 
+Interfaces enforce a contract for the shape of an object, 
+ensuring that the object adheres to a particular structure, which improves type safety and code readability.
+
+Unlike classes, interfaces do not have any implementation 
+(i.e., they only define types, not how they behave). 
+Interfaces are commonly used to define the types of complex objects and functions.
+
+Type Safety: Interfaces ensure that objects have the expected properties and methods, 
+             preventing bugs due to missing or incorrect fields.
+Code Readability: Interfaces clearly define the shape of objects, making code more understandable.
+Reusability: Interfaces can be reused throughout your code, making it easier to maintain and extend.
+
+1.Define object shape: Interfaces describe how an object should look, including properties and methods.
+2.Optional and readonly properties: Interfaces can include optional (?) and readonly properties.
+3.Extending interfaces: We can extend interfaces to build upon existing ones.
+4.Function, array, and hybrid types: Interfaces can describe complex types like functions, arrays, and hybrids.
+5.Useful for class contracts: Interfaces can define the contract that classes must implement.
