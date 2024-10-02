@@ -1,0 +1,20 @@
+Properties and Constructor:
+
+Properties are declared within the class. They can have access modifiers like public, private, or protected.
+The constructor initializes an object of the class.
+Access Modifiers:
+
+public: Accessible anywhere (default if no modifier is provided).
+private: Accessible only within the class.
+protected: Accessible within the class and its subclasses.
+Methods:
+
+Define behavior or actions for objects of the class.
+Can also have access modifiers to control visibility.
+
+
+abstract classes:
+Abstract Methods: These are methods without a body. They must be implemented in the derived class.
+Non-abstract Methods: Abstract classes can also have methods with complete functionality, which can be used by derived classes.
+Cannot be Instantiated: You cannot create an instance of an abstract class.
+Can Contain Properties: Abstract classes can define properties that child classes inherit.
