@@ -1,0 +1,8 @@
+Functions in TypeScript are similar to JavaScript but come with added features for 
+type safety and predictability. 
+
+Type annotations: Allow us to define input parameter types and return types.
+1.Optional and default parameters: Make function definitions flexible.
+2.Rest parameters: Enable functions to accept multiple arguments in a clean way.
+3.Function overloading: Allows a single function to handle different input types.
+4.Void and never: Handle cases where functions don’t return values or never finish executing.

@@ -1,0 +1,19 @@
+TypeScript is a superset of JavaScript that adds static types 
+to the language. This means that while 
+JavaScript is dynamically typed (types are determined at runtime), 
+TypeScript allows developers to specify types at development time, 
+offering several key advantages.
+
+1. Static Typing
+Type Safety: In JavaScript, type-related errors can only be discovered at runtime, 
+which means a bug may only be caught when the program is running in production. TypeScript, 
+however, allows for static type checking at compile time. This helps catch type-related bugs early, during development.
+Code IntelliSense and Auto-Completion: With types in place, IDEs and text editors can provide much better IntelliSense, 
+which improves productivity by suggesting possible functions, methods, and properties, and helping identify errors before you even run the code.
+
+2. Improved Code Readability and Maintenance
+Self-Documenting Code: TypeScript’s type annotations provide better context for other developers
+ when revisiting the code. we don't need to guess the types or rely on external documentation as types are defined explicitly.
+Easier Refactoring: Refactoring large codebases is easier with TypeScript because 
+the compiler can check type consistency across the entire application. If we change a function's signature or a data structure, 
+TypeScript will warn  all affected areas.

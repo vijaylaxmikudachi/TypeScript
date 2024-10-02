@@ -1,0 +1,40 @@
+ENUMS:
+
+An enum (short for "enumeration") is a special data type in TypeScript that allows you to define 
+a collection of related constants with descriptive names. 
+Enums are used to give friendly names to a set of numeric or string values, 
+making the code easier to read and maintain.
+
+Enums provide a way of organizing sets of values that are closely related, 
+like the days of the week, directions, or user roles.
+
+Types of Enums in TypeScript
+There are two main types of enums in TypeScript:
+1.Numeric Enums (default)
+2.String Enums
+
+Enums vs. Other Data Types
+1.Enums vs. Objects
+Objects can also be used to hold constant values, but enums are special because 
+they offer reverse mapping (for numeric enums) and are type-safe.
+
+2.Enums vs. Union Types
+Union types allow defining a variable to accept a few specific values but don’t offer 
+reverse mapping and are less expressive.
+Enums provide more structure and additional functionality like reverse mapping (for numeric enums) 
+and allow for automatic assignment of values.
+
+3.Enums vs. Constants (const)
+Constants (const) can be used to define individual values, 
+but they do not offer reverse mapping and cannot be grouped logically the same way enums can.
+
+When to Use Enums
+When we have a set of closely related constants: For example, states in a state machine, directions, days of the week, etc.
+When we need reverse mapping: Numeric enums allow reverse mapping, which can be useful when debugging or handling numeric codes.
+When we want more readable code: Using named values instead of magic numbers or strings improves the readability and maintainability of your code.
+
+Conclusion
+Enums provide a way to define a set of named constants, which makes your code more readable and maintainable.
+They are different from other data types because they offer reverse mapping, type safety, and auto-incrementing values, 
+and they group related constants in a structured way.
+Enums can be numeric or string-based, depending on the use case, and are an excellent tool for handling fixed sets of values in TypeScript.
